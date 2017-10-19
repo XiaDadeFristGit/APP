@@ -1,0 +1,258 @@
+	body,img,h1,h2,h3,ul,li,div{
+    		margin: 0;
+    		padding: 0;
+    		font-family: "微软雅黑";
+    	}
+    	li{
+    		list-style: none;
+    	}
+    	h1,h2,h3{
+    		font-weight:normal ;
+    	}
+/*about*/
+
+.banner img{
+		margin: 0 auto;
+		width: 100%;
+		height: 70px;
+	}
+	.list{
+		display: flex;
+		justify-content: space-between;
+		margin: 0 auto;
+		width: 90%;
+		
+	}
+	.list-ul{
+		margin-top: 10px;
+	}
+	.li-left{
+		width:30% ;
+		
+	}
+	.li-left img{
+		width: 100%;
+		margin-top: 10px;
+		
+	}
+	.li-right span{
+		color: #68C04A;
+		font-size: 20px;
+	}
+	.li-right h1,h2,h3,b{
+    		font-weight:normal;
+    	}
+    	.li-right b{
+    		font-size: 12px;
+    		color: #999;
+    	}
+	.li-right{
+		width: 65%;
+		height:100px;
+		text-align: left;
+		margin-top: 10px;
+		
+	}
+	 .li-right span{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;}
+	.li-right .title{}
+	/*about end*/
+	/*course*/
+ .kc_part li{ display: flex; padding: 12px; margin: 10px 0}
+  .kc_part li .imgg{ margin-right: 14px; }
+  .kc_part li .imgg img{width: 100px; height: 100px;display: block;}
+  .kc_part li .text{ text-align: left; font-size: 12px; line-height: 20px}
+  .kc_part li h3{ margin-bottom: 8px; font-size: 16px; margin-top: 6px}
+  .kc_part li p{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;}
+	/*course end*/
+	/*enveriment*/
+	/*enveriment end*/
+	/*form*/
+	.our{ text-align: left}
+  .btn{
+  	display: flex;
+  }
+  .mint-button{
+  	margin: 0 auto;
+  }
+	/*form end*/
+	/*home*/
+	.box{
+		position: absolute;
+	}
+	.masg{
+		display: flex;
+		flex-flow: wrap;
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	.masg span{
+		display: inline-block;
+		width: 50%;
+		
+		
+	}
+	.masg span img {
+		width: 100%;
+	}
+	
+	.mint-swipe{
+		height: 150px;
+	}
+	.mint-swipe{
+		height: 150px;
+	}
+	.mint-swipe-item img{
+		width: 100%;
+		height: 150px;
+	}
+	.conter{
+		display: flex;
+		width: 94%;
+		flex-wrap: wrap;
+		margin: 0 auto;
+		justify-content: space-around;
+	}
+	.conter span{
+		margin-top: 10px;
+		font-size: 12px;
+		width: 25%;
+		display: block;
+		text-align: center;
+	}
+	.conter span img{
+		display: block;
+		width: 50px;
+		margin: 10px auto;
+	}
+	.mint-cell-title{
+		text-align: left;
+		
+	}
+	.mint-cell-text {
+		color: #333;
+		text-decoration: none;
+	}
+	a{
+		text-decoration: none;
+	}
+	.mint-cell-wrapper{
+		border-bottom:none;
+	}
+	.mint-navbar{
+		margin-top: 20px;
+	}
+	.mint-swipe{
+		height: 150px !important;
+	}
+	
+   .mint-navbar .mint-tab-item.is-selected{ background: #68C04A;color:#ffffff}
+  .mint-navbar .mint-tab-item{ background: #efefef;}
+  .mint-tab-item-label{ font-size: 16px}
+  .mint-navbar .mint-tab-item.is-selected{color:#fff !important;}
+  .mint-cell-wrapper{background-image:none; text-align: left;padding-left: 20px}
+	/*home end*/
+	/*job*/
+	.banner img{
+		margin: 0 auto;
+		width: 100%;
+		height: 70px;
+	}
+	.list{
+		display: flex;
+		justify-content: space-between;
+		margin: 0 auto;
+		width: 90%;
+		
+	}
+	.list-ul{
+		margin-top: 10px;
+	}
+	.li-left{
+		width:30% ;
+		
+	}
+	.li-left img{
+		width: 100%;
+		margin-top: 10px;
+		
+	}
+	.li-right span{
+		color: #68C04A;
+		font-size: 20px;
+	}
+	.li-right h1,h2,h3,b{
+    		font-weight:normal;
+    	}
+    	.li-right b{
+    		font-size: 12px;
+    		color: #999;
+    	}
+	.li-right{
+		width: 65%;
+		height:100px;
+		text-align: left;
+		margin-top: 10px;
+		
+	}
+	 .li-right span{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;}
+	.li-right .title{}
+	/*job end*/
+	/*news*/
+	h3.news-title{ font-size: 18px; margin: 12px;}
+    span.news-time{ font-size: 12px; color: #cccccc;}
+    p.news-content{ text-align: left; padding: 14px;}
+	/*news end*/
+	/*teacher*/
+	.banner2 img{
+		width: 100%;
+		height: 100px;
+		margin: 0 auto;
+	}
+	ul .li-page{
+		display: flex;
+		justify-content: space-between;
+		width: 90%;
+		margin: 0 auto;
+		margin: 10px auto;
+		
+	}
+	.page-left{
+		width: 30%;
+		
+	}
+	.page-left img{
+		width: 100%;
+	}
+	.page-right{
+		margin-top: 20px;
+		font-size: 12px;
+		text-align: left;
+		width: 60%;
+		height: 150px;
+	}
+	.page-right h3{
+		font-size: 14px;
+	}
+	.page-right b{
+		font-size: 16px;
+	}
+	.page-right span{
+		color: #999;
+	}
+	/*teacher end*/
